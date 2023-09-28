@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 
 url = "https://vk.com/"
-browser = webdriver.Chrome(executable_path="C:\\Users\\vika_\\PycharmProjects\\pythonProject\\selenium\\chromedriver\\chromedriver.exe")
+browser = webdriver.Chrome()
 
 try:
     browser.get(url=url)
